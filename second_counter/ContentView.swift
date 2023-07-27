@@ -23,7 +23,7 @@ struct ContentView: View {
                 count += 1
                 print(count)
             }) {
-                Text("Up")
+                Text("Add")
             }
             Button(action: {
                 count += -1
